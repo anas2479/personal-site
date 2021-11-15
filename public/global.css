@@ -597,12 +597,8 @@ video {
   display: none;
 }
 
-.order-1{
-  order: 1;
-}
-
-.order-3{
-  order: 3;
+.relative{
+  position: relative;
 }
 
 .order-first{
@@ -618,12 +614,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-4{
-  margin-top: 1rem;
-}
-
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .inline{
@@ -638,12 +634,20 @@ video {
   display: grid;
 }
 
-.h-24{
-  height: 6rem;
-}
-
 .h-screen{
   height: 100vh;
+}
+
+.h-20{
+  height: 5rem;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-full{
@@ -654,10 +658,6 @@ video {
   max-width: 72rem;
 }
 
-.max-w-\[400px\]{
-  max-width: 400px;
-}
-
 .max-w-\[450px\]{
   max-width: 450px;
 }
@@ -666,20 +666,12 @@ video {
   flex: 1 1 0%;
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-col{
   flex-direction: column;
 }
 
 .flex-wrap{
   flex-wrap: wrap;
-}
-
-.flex-nowrap{
-  flex-wrap: nowrap;
 }
 
 .items-center{
@@ -694,12 +686,13 @@ video {
   justify-content: space-between;
 }
 
-.justify-evenly{
-  justify-content: space-evenly;
-}
-
 .p-4{
   padding: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .font-headings{
@@ -710,8 +703,8 @@ video {
   font-family: "EB Garamond";
 }
 
-.text-8xl{
-  font-size: 6rem;
+.text-6xl{
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -720,24 +713,14 @@ video {
   line-height: 2.25rem;
 }
 
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold{
@@ -746,11 +729,6 @@ video {
 
 .font-semibold{
   font-weight: 600;
-}
-
-.text-gray-600{
-  --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
 
 .text-gray-700{
