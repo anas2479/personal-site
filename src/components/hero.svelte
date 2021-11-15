@@ -1,4 +1,4 @@
-<div class="h-screen w-full grid md:grid-cols-3 items-center">
+<div class="min-h-screen w-full grid md:grid-cols-3 items-center">
 
     <div class=" mb-4">
         <h1 class="font-headings text-8xl font-bold">Hi</h1>
